@@ -25,7 +25,7 @@ the learning I was able to derive.</b><br>
 <p style="margin: 0;"><b>7. Data exploration and analysis helped me a lot here as I was able to develop insights one after the other and that led me to the final step of designing and executing all the experiments successfully.</b><br>
 <p style="margin: 0;"><b>8. Training neural networks is a time consuming and a tough job. I accidently did not normalize the prices resulting in a really huge training loss that was not decaying even after running multiple epochs. I was not able to figure it out for quite a long time. The problem was I used the prices without normalization and as a result, since bitcoin prices were really high (order of magnitude - thousands) hence the loss was also more. This shows how crucial the data preprocessing part is and one must take special care of this.</b><br>
 
-
+  
 
 
 
