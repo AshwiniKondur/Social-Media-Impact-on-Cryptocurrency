@@ -11,7 +11,21 @@
 ![image](https://github.com/user-attachments/assets/fa8b213f-fc29-4d2f-8a41-55190d2f76cc)
 ![image](https://github.com/user-attachments/assets/3c535dba-3a38-4c5b-822e-df685f2ae0b3)
 ![image](https://github.com/user-attachments/assets/000dc1dc-2812-4ca7-9bdf-fdb61189edf5)
-![image](https://github.com/user-attachments/assets/c6d91f8a-244c-4ce0-aa41-3b88f09e1741)
+![image](https://github.com/user-attachments/assets/f13c66f1-562a-4886-89ce-c5b9bff67553)
+<p style="margin: 0;"><b> 
+Professional Issues and Learnings
+Challenges are a part of the process. They act as an indicator to the effort that individuals put in to reach their goal & there were multiple challenges that I faced in this project. The amount of learning that I was able to derive was huge as this project taught me multiple concepts from various domains. I’ll try to list down a few of the many challenges I faced and
+the learning I was able to derive.
+1. Selection of entities that are affected by social media - Since this work primarily revolves around understanding the power of social media, hence I wanted to select an entity that “must ” show some behaviour that is influenced by social media (atleast intuitively it must). The reason why I went ahead with cryptocurrencies is because of Dogecoin as it was quite popular was heavily influenced by Social media.
+2. Data extraction - Data extraction using the twitter api was challenging. There are several resources online for the same but very few of the solutions work well as there are some sort of limitations in each of the solution (either limiting the rate at which tweets can be downloaded or the number of tweets downloaded)
+3. Sentiment Analysis - This was a major time consuming challenge for me. I had to obtain the sentiment values for a tweet using the pretrained Cardiff NLP model, which was available on Hugging Face. The problem was its speed (it was very slow), which took a lot of time for execution.
+4. NLP - Understanding sentiment analysis required me to learn a lot about NLP which was not my core area of expertise. However, this has really helped me create even more interest in this field and I’ll be pursuing it actively in the future.
+5. Another minor challenge: extract the tweets and preprocess them. The Twitter API was a problem as I had applied for developer’s access but didn’t get that on time and otherwise we cannot get tweets from 7 days ago (and over there too there is a cap of 500 tweets per day). So I had to explore other options and that was a painstaking task.
+6. Deciding the set of experiments to be performed - Once I had the data, I was completely clueless in terms of how to proceed forward. The path was definitely not clear as I had to frame the problem and experiments that can do a value addition to the topic of this report, which is predictive power of media. At the same time I had to present the quantitative results as well. As it’s evident from the experiments, I’ve covered the majority of the solutions that exist for predictive modelling. Regression, Classification, Ensemble methods, Neural Networks, SARIMAX (time series modelling) and LSTM.
+7. Data exploration and analysis helped me a lot here as I was able to develop insights one after the other and that led me to the final step of designing and executing all the experiments successfully.
+8. Training neural networks is a time consuming and a tough job. I accidently did not normalize the prices resulting in a really huge training loss that was not decaying even after running multiple epochs. I was not able to figure it out for quite a long time. The problem was I used the prices without normalization and as a result, since bitcoin prices were really high (order of magnitude - thousands) hence the loss was also more. This shows how crucial the data preprocessing part is and one must take special care of this.
+
+</b><br>
 
 
 
